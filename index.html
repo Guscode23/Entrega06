@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Banco de Usuarios</title>
+    <link rel="stylesheet" href="main.css">
+    <!-- Latest compiled and minified CSS -->
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
+<!-- jQuery library -->
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+<!-- Popper JS -->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"></script>
+<!-- Latest compiled JavaScript -->
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
+
+</head>
+
+<body>
+   <header class ="header">
+     <nav class="nav">
+      <a href="" class="logo nav-link" onclick="mostrarOcultarMenu()">USER'S BANKING</a>
+          <ul class="nav-menu">
+             <li class="nav-menu-item">
+               <script  src="conexClientes.js"></script>
+               <a href="#tabla" class="nav-menu-link nav-link" onclick="traerdatos()" id="linkJson">Listado de Usuarios</a>
+             </li>
+             <li class="nav-menu-item">
+                <a href="#contenidos" class="nav-menu-link nav-link" onclick="" id="Form">Formulario de Alta</a>
+                </li>
+        </ul>
+      </nav>
+</header>
+       <!--SECCION MENU-->
+
+       <table class="table" id="tabla">
+         <thead>
+           <tr>
+            <th>Nombre</th>
+            <th>Apellido</th>
+            <th>Tipo</th>
+            <th>Estado</th>
+             </tr>
+         </thead>
+      <tbody id="res"></tbody>
+      </table>
+      
+      <div class="container">
+         <h1>                  ¡Bienvenidos!           </h1>
+         <p>Esta es una pagina para visualizar listado de clientes y dar de alta usuarios.</p>
+       </div>
+       
+      <!--SECCION FORM--> 
+      <form id="form">
+        <div class="mb-3">
+          <label for="exampleInputNombre" class="form-label">Nombre</label>
+          <input type="text" class="form-control" id="exampleInputNombre" aria-describedby="emailHelp">
+          </div>
+        <div class="mb-3">
+          <label for="exampleInputApellido" class="form-label">Apellido</label>
+          <input type="text" class="form-control" id="exampleInputPassword1">
+        </div>
+        <div class="mb-3">
+          <label for="exampleInputUsuario" class="form-label">Tipo de Usuario</label>
+          <!--<input type="text" class="form-control" id="exampleInputUsuario">-->
+          <select class="form-control">
+            <option>Administrador</option>
+            <option>Usuario</option> 
+            </select>
+        </div>
+        <div class="mb-3">
+          <label for="exampleInputApellido" class="form-label">Estado</label>
+          <!--<input type="text" class="form-control" id="exampleInputEstado">-->
+          <select class="form-control">
+            <option>Activo</option>
+            <option>Inactivo</option>
+            </select>
+        </div>
+        <div class="mb-3 form-check">
+          <input type="checkbox" class="form-check-input" id="exampleCheck1">
+          <label class="form-check-label" for="exampleCheck1">Verificado</label>
+        </div>
+
+        <button type="submit" onclick="show()" class="btn btn-primary">Enviar</button>
+      </form>
+         <main>
+   </main>
+   
+</body>
+
+
+</html>

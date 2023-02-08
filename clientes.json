@@ -1,0 +1,139 @@
+[
+   {
+     "nombre":"Gustavo",
+     "Apellido":"Rosales",
+     "Tipo":"Admin",
+     "Estado":"Activo"
+
+   },
+
+   {
+    "nombre":"Juan",
+    "Apellido":"Rosales",
+    "Tipo":"Admin",
+    "Estado":"Inactivo"
+    },
+
+    {
+
+    "nombre":"Beatriz",
+    "Apellido":"Leguizamon",
+    "Tipo":"Admin",
+    "Estado":"Inactivo"
+     },
+
+     {
+       "nombre":"Martin",
+       "Apellido":"Caceres",
+       "Tipo":"Usuario",
+       "Estado":"Activo"
+     },
+
+     {
+       "nombre":"Jacqueline",
+       "Apellido":"Inigo",
+       "Tipo":"Usuario",
+       "Estado":"Activo"
+     },
+
+     {
+        "nombre":"Camila",
+       "Apellido":"Magnani",
+       "Tipo":"Admin",
+       "Estado":"Activo"
+    },
+
+    {
+        "nombre":"Yamir",
+        "Apellido":"Cuellar",
+        "Tipo":"Admin",
+        "Estado":"Activo"
+     },
+
+     {
+        "nombre":"Isabela",
+       "Apellido":"Perez",
+        "Tipo":"Admin",
+       "Estado":"Activo"
+     },
+
+     {
+        "nombre":"Sandra",
+       "Apellido":"Gonzalez",
+       "Tipo":"Admin",
+       "Estado":"Inactivo"
+     },
+
+     {
+        "nombre":"Novak",
+       "Apellido":"Djokovic",
+       "Tipo":"Admin",
+       "Estado":"Activo"
+        
+    },
+
+    {
+        "nombre":"Carlos",
+        "Apellido":"Alcaraz",
+        "Tipo":"Admin",
+        "Estado":"Activo"
+     },
+
+     {
+        "nombre":"Casper",
+        "Apellido":"Ruud",
+        "Tipo":"Usuario",
+        "Estado":"Inactivo"
+     },
+
+     {
+        "nombre":"Stefanos",
+       "Apellido":"Tsitispas",
+       "Tipo":"Admin",
+       "Estado":"Activo"
+     },
+
+     {
+        "nombre":"Andrey",
+        "Apellido":"Rublev",
+        "Tipo":"Usuario",
+        "Estado":"Activo"
+     },
+
+     {
+       "nombre":"Rafael",
+       "Apellido":"Nadal",
+       "Tipo":"Usuario",
+       "Estado":"Activo"
+     },
+
+     {
+        "nombre":"Taylor",
+        "Apellido":"Fritz",
+        "Tipo":"Usario",
+        "Estado":"Inactivo"
+     },
+
+     {
+        "nombre":"Holger",
+       "Apellido":"Rune",
+       "Tipo":"Usuario",
+       "Estado":"Activo"
+     },
+
+     {
+        "nombre":"Daniil",
+       "Apellido":"Medvedev",
+       "Tipo":"Usuario",
+       "Estado":"Activo"
+     },
+
+     {
+        "nombre":"Karen",
+        "Apellido":"Kachanov",
+        "Tipo":"Usuario",
+        "Estado":"Activo"
+
+
+     }
+]
